@@ -19,6 +19,8 @@
             return helloInstance.hi();
           }).then(function(html) {
             console.log(html);
+            $('.result').html(html);
+            
           })
 
     });
